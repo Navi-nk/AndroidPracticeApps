@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magada_signin.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\magada_signin.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magada_main.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\magada_main.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page1.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\activity_main_page1.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magada_sdview.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\magada_sdview.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_childitem.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\drawer_list_childitem.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\activity_main_page.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magada_signup.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\magada_signup.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaUser\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "D:\\Naval\\MagadaUser\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Magada - Admin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string-array name="village">       
+        <item >Village 1</item>
+        <item >Village 2</item>
+        <item >Village 3</item>
+        <item >Village 4</item>
+    </string-array>
+    <string-array name="taluk">
+        <item >taluk 1</item>
+        <item >taluk 2</item>
+        <item >taluk 3</item>
+        <item >taluk 4</item>
+    </string-array>
+    <string-array name="district">
+        <item >district 1</item>
+        <item >district 2</item>
+        <item >district 3</item>
+        <item >district 4</item>
+    </string-array>
+    <string-array name="fish_type">
+        <item >Fish type 1</item>
+        <item >Fish type 2</item>
+    </string-array>
+   
+</resources>

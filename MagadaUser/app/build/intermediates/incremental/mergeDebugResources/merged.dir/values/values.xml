@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="district">
+        <item>district 1</item>
+        <item>district 2</item>
+        <item>district 3</item>
+        <item>district 4</item>
+    </string-array>
+    <string-array name="fish_type">
+        <item>Fish type 1</item>
+        <item>Fish type 2</item>
+    </string-array>
+    <string-array name="par1">       
+        <item>0-10</item>
+        <item>11-20</item>
+        <item>21-30</item>
+        <item>31-40</item>
+        <item>41-50</item>
+        <item>51-60</item>
+        <item>61-70</item>
+        <item>71-80</item>
+        <item>>81</item>
+    </string-array>
+    <string-array name="par2">       
+        <item>Fully covered</item>
+        <item>75% covered</item>
+        <item>50% covered</item>
+        <item>25% covered</item>
+        <item>&lt;10% covered</item>
+        <item>No vegetation</item>
+    </string-array>
+    <string-array name="par3">       
+        <item>Transparent</item>
+        <item>Pale</item>
+        <item>Grey</item>
+        <item>Light Green</item>
+        <item>Olive Green</item>
+        <item>Dark Green</item>
+        <item>Muddy</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="par4">       
+        <item>>10</item>
+        <item>8–10</item>
+        <item>4–6</item>
+        <item>2–4</item>
+        <item>&lt;2</item>
+   
+    </string-array>
+    <string-array name="par5">       
+        <item>&lt;1</item>
+        <item>1–2</item>
+        <item>2–3</item>
+        <item>3–4</item>
+        <item>4–5</item>
+        <item>>5</item>
+    </string-array>
+    <string-array name="par6">       
+        <item>3–4</item>
+        <item>4–5</item>
+        <item>5–6</item>
+        <item>6–7</item>
+        <item>7–8</item>
+        <item>8–9</item>
+        <item>9–10</item>
+        <item>>10</item>
+    </string-array>
+    <string-array name="taluk">
+        <item>taluk 1</item>
+        <item>taluk 2</item>
+        <item>taluk 3</item>
+        <item>taluk 4</item>
+    </string-array>
+    <string-array name="village">       
+        <item>Village 1</item>
+        <item>Village 2</item>
+        <item>Village 3</item>
+        <item>Village 4</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="PI">Productivity Index : </string>
+    <string name="SD"><u>Stocking Density(SD)</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Magada</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="parameter1">Secchi Disk Reading(SDR)</string>
+    <string name="parameter2">Weed Infestation</string>
+    <string name="parameter3">Color of Water</string>
+    <string name="parameter4">Water Retention Reriod</string>
+    <string name="parameter5">Mean Depth</string>
+    <string name="parameter6">pH of Water</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

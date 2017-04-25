@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Naval\MagadaAdmin\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Naval\MagadaAdmin\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a681e1971784593b874bc5b6531f87ca4c2953aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Naval\MagadaAdmin\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d79e66eb83b2f402adf8df850937e6d5de7974c">
+        <dex dex="D:\Naval\MagadaAdmin\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd3c3c1e9ce059379d05b2d6d22af9181f60cd9d\classes.dex" />
+    </item>
+
+</items>

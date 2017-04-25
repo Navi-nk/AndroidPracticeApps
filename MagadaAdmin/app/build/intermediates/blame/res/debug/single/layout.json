@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_magadaadmin1.xml",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\layout\\activity_magadaadmin1.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magadadmin_signin.xml",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\layout\\magadadmin_signin.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magadaadminmainpage.xml",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\layout\\magadaadminmainpage.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magadadmin_signup.xml",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\layout\\magadadmin_signup.xml"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_magadaadmin.xml",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\layout\\activity_magadaadmin.xml"
+    }
+]

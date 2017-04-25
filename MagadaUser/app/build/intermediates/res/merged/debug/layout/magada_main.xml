@@ -1,0 +1,114 @@
+<?xmrl version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg3" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+		<TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:text="Productivity Index Calculator"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<com.example.magada.NoDefaultSpinner
+		    android:id="@+id/spinner1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_alignLeft="@+id/textView"
+		    android:layout_alignRight="@+id/textView"
+		    android:layout_below="@+id/textView"
+		    android:layout_marginTop="15dp"
+		    android:prompt="@string/parameter1" />
+		
+		<com.example.magada.NoDefaultSpinner
+		    android:id="@+id/spinner2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_alignLeft="@+id/spinner1"
+		    android:layout_alignRight="@+id/spinner1"
+		    android:layout_below="@+id/spinner1"
+		    android:layout_marginTop="15dp"
+		    android:prompt="@string/parameter2" />
+		
+		<com.example.magada.NoDefaultSpinner
+		    android:id="@+id/spinner3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_alignLeft="@+id/spinner2"
+		    android:layout_alignRight="@+id/spinner2"
+		    android:layout_below="@+id/spinner2"
+		    android:layout_marginTop="15dp"
+		    android:prompt="@string/parameter3" />
+
+		<com.example.magada.NoDefaultSpinner
+		    android:id="@+id/spinner4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_alignLeft="@+id/spinner3"
+		    android:layout_alignRight="@+id/spinner3"
+		    android:layout_below="@+id/spinner3"
+		    android:layout_marginTop="15dp"
+		    android:prompt="@string/parameter4" />
+
+		<com.example.magada.NoDefaultSpinner
+		    android:id="@+id/spinner5"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_alignLeft="@+id/spinner4"
+		    android:layout_alignRight="@+id/spinner4"
+		    android:layout_below="@+id/spinner4"
+		    android:layout_marginTop="15dp"
+		    android:prompt="@string/parameter5" />
+		
+		<com.example.magada.NoDefaultSpinner
+		    android:id="@+id/spinner6"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_alignLeft="@+id/spinner5"
+		    android:layout_alignRight="@+id/spinner5"
+		    android:layout_below="@+id/spinner5"
+		    android:layout_marginTop="15dp"
+		    android:prompt="@string/parameter6" />
+
+		<Button
+        android:id="@+id/B1"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/spinner6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#87CEEB"
+        android:text="Calculate" />
+
+
+        </RelativeLayout>
+        
+
+    </FrameLayout>
+    <ExpandableListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#111"/>
+</android.support.v4.widget.DrawerLayout>
+    
+

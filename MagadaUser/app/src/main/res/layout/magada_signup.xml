@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3" >
+
+<RelativeLayout
+        android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="600dp" >
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Farmer Registration"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/eT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eT3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tV1"
+        android:layout_marginTop="15dp"
+        android:ems="10" />
+
+		<requestFocus />
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/eT1"
+        android:layout_toRightOf="@+id/textV3"
+        android:ems="10"
+        android:inputType="textPassword" >
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/eT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/eT2"
+        android:layout_toRightOf="@+id/textV3"
+        android:ems="10" 
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/textV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eT2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:text="User ID:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/eT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/eT3"
+        android:layout_toRightOf="@+id/textV3"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textV1"
+        android:layout_below="@+id/textV4"
+        android:layout_marginTop="16dp"
+        android:text="Hectre Holding:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eT4"
+        android:layout_alignLeft="@+id/textV5"
+        android:text="User Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eT4"
+        android:layout_alignLeft="@+id/textV4"
+        android:text="Confirm Password:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eT3"
+        android:layout_alignLeft="@+id/textV3"
+        android:text="Password:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textV6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textV5"
+        android:layout_below="@+id/eT5"
+        android:layout_marginTop="16dp"
+        android:text="Mobile Number:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/eT5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textV5"
+        android:layout_alignLeft="@+id/eT4"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/eT6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textV6"
+        android:layout_alignLeft="@+id/eT5"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <com.example.magada.NoDefaultSpinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner2"
+        android:layout_toRightOf="@+id/textV3" />
+
+    <com.example.magada.NoDefaultSpinner
+        android:id="@+id/spinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner3"
+        android:layout_toRightOf="@+id/textV3" />
+
+    <TextView
+        android:id="@+id/TextV9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextV10"
+        android:layout_alignTop="@+id/spinner3"
+        android:layout_marginTop="14dp"
+        android:text="Taluk:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextV7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner2"
+        android:layout_alignLeft="@+id/TextV8"
+        android:text="Species Type:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextV8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner2"
+        android:layout_alignRight="@+id/textV1"
+        android:text="District:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.example.magada.NoDefaultSpinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/eT6"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/textV3"
+        
+        />
+
+    <com.example.magada.NoDefaultSpinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_toRightOf="@+id/textV3" 
+        />
+
+    <TextView
+        android:id="@+id/TextV10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner4"
+        android:layout_alignRight="@+id/TextV8"
+        android:text="Village:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/spinner4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="#87CEEB"
+        android:text="Register" />
+
+</RelativeLayout>
+</ScrollView>

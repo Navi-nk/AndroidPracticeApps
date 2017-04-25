@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3" >
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/eT2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#87CEEB"
+        android:text="Sign In" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tV1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Login Page"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/eT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eT2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/B1"
+        android:layout_below="@+id/eT1"
+        android:layout_marginTop="16dp"
+        android:ems="10" 
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eT2"
+        android:layout_alignRight="@+id/tV2"
+        android:text="User Id :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/B1"
+        android:layout_toLeftOf="@+id/eT2"
+        android:text="Password :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

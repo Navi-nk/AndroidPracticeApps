@@ -1,0 +1,7 @@
+#Tue Apr 25 18:14:57 SGT 2017
+base.0=D\:\\Naval\\MagadaUser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fe706b8296b3454c028c37d23d7ebc405b6b51af
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Naval\\MagadaUser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_092204c3b14af4799c1631abcc5e227b863e492f\\classes.dex
+base.1=D\:\\Naval\\MagadaUser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_092204c3b14af4799c1631abcc5e227b863e492f
+file.0=D\:\\Naval\\MagadaUser\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fe706b8296b3454c028c37d23d7ebc405b6b51af\\classes.dex

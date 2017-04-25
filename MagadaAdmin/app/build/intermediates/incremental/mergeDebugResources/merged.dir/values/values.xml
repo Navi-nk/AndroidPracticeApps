@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="district">
+        <item>district 1</item>
+        <item>district 2</item>
+        <item>district 3</item>
+        <item>district 4</item>
+    </string-array>
+    <string-array name="fish_type">
+        <item>Fish type 1</item>
+        <item>Fish type 2</item>
+    </string-array>
+    <string-array name="taluk">
+        <item>taluk 1</item>
+        <item>taluk 2</item>
+        <item>taluk 3</item>
+        <item>taluk 4</item>
+    </string-array>
+    <string-array name="village">       
+        <item>Village 1</item>
+        <item>Village 2</item>
+        <item>Village 3</item>
+        <item>Village 4</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Magada - Admin</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

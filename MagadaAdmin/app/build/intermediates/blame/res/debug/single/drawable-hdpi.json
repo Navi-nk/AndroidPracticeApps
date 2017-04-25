@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg2.png",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\drawable-hdpi\\bg2.png"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background1.png",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\drawable-hdpi\\background1.png"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg1.png",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\drawable-hdpi\\bg1.png"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Naval\\MagadaAdmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg3.png",
+        "source": "D:\\Naval\\MagadaAdmin\\app\\src\\main\\res\\drawable-hdpi\\bg3.png"
+    }
+]

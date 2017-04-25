@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3" >
+
+<RelativeLayout 
+         android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="600dp" >
+    
+        <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Search Farmers:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.example.magadaadmin.NoDefaultSpinner
+        android:id="@+id/spinner3"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="5dp" />
+
+    <com.example.magadaadmin.NoDefaultSpinner
+        android:id="@+id/spinner2"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/TextV7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tV1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="16dp"
+        android:text="Species Type:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.example.magadaadmin.NoDefaultSpinner
+        android:id="@+id/spinner1"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/TextV7"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/TextV8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner3"
+        android:layout_alignLeft="@+id/TextV7"
+        android:text="District:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextV9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner3"
+        android:layout_alignLeft="@+id/TextV8"
+        android:text="Taluk:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextV10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner4"
+        android:layout_alignLeft="@+id/TextV9"
+        android:text="Village:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.example.magadaadmin.NoDefaultSpinner
+        android:id="@+id/spinner4"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/spinner3" />
+
+    <Spinner
+        android:id="@+id/spinnerdate"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/spinner4"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner4"
+        android:layout_marginTop="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerdate1"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/spinnerdate"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinnerdate"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_alignRight="@+id/TextV11"
+        android:layout_below="@+id/spinnerdate1"
+        android:layout_marginTop="20dp"
+        android:background="#87CEEB"
+        android:text="Export Excel" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/b2"
+        android:layout_alignBottom="@+id/b2"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/b2"
+        android:background="#87CEEB"
+        android:text="Barchart" />
+
+    <TextView
+        android:id="@+id/TextV12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinnerdate1"
+        android:layout_alignLeft="@+id/TextV11"
+        android:text="To Date:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextV11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinnerdate1"
+        android:layout_alignLeft="@+id/TextV10"
+        android:text="From Date:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/b1"
+        android:layout_toRightOf="@+id/TextV7"
+        android:background="#87CEEB"
+        android:text="List" />
+
+</RelativeLayout>
+</ScrollView>
